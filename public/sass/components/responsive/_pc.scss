@@ -1,0 +1,36 @@
+@media screen and (min-width: 1000px) {
+	header {
+		.header__info {
+			padding: 2rem 100px 60px 100px;
+		}
+
+		h2 {
+			font-size: 130.12px;
+		}
+	}
+
+	.main {
+		h2 {
+			font-size: 50.07px;
+		}
+
+		.service {
+			margin-top: 100px;
+			flex-direction: row;
+
+			div {
+				margin: 0 1.5rem;
+			}
+		}
+	}
+
+	.about {
+		.about__info {
+			margin-left: 100px;
+		}
+	}
+
+	.quote {
+		font-size: 40px;
+	}
+}

@@ -1,0 +1,43 @@
+.main {
+	padding: 3rem 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h2 {
+		font-size: 34.51px;
+		font-family: 'DM Serif Display', serif;
+		font-weight: 400;
+	}
+
+	.service {
+		display: flex;
+		flex-direction: column;
+
+		div {
+			margin-top: 142px;
+			max-width: 340px;
+			min-width: 340px;
+			display: grid;
+			grid-template-rows: 221px 50px 63px;
+
+			img {
+				margin: auto;
+				max-width: 300px;
+				width: 100%;
+				grid-row: 1/2;
+			}
+
+			h3 {
+				grid-row: 2/3;
+				font-size: 25.51px;
+				font-family: 'DM Serif Display', serif;
+				font-weight: 400;
+			}
+
+			p {
+				grid-row: 3/4;
+			}
+		}
+	}
+}

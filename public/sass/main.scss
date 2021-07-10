@@ -1,0 +1,10 @@
+// Variables
+$gray: #1f1f1f;
+
+// Components
+@import 'components/global';
+@import 'components/header';
+@import 'components/service';
+@import 'components/about';
+//responesive
+@import 'components/responsive/pc';
