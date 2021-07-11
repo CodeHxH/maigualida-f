@@ -17,6 +17,10 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"
 		/>
+		<!-- Parallax -->
+		<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+		<!-- Fade -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 		<!-- Custom css -->
 		<link rel="stylesheet" href="public/css/main.css" />
 		<link
@@ -68,7 +72,7 @@
 		<section class="main" id="main">
 			<h2>SERVICIOS LEGALES</h2>
 			<div class="service">
-				<div>
+				<div data-aos="fade-right" class="animate__animated">
 					<img src="public/svg/file.svg" alt="" />
 					<h3>Registro Mercantil</h3>
 					<p>
@@ -76,12 +80,12 @@
 						las mismas.
 					</p>
 				</div>
-				<div>
+				<div data-aos="fade-up" class="animate__animated">
 					<img src="public/svg/build.svg" alt="" />
 					<h3>Declaraciones Sucesorales</h3>
 					<p>Todo lo referente a sucesiones.</p>
 				</div>
-				<div>
+				<div data-aos="fade-left" class="animate__animated">
 					<img src="public/svg/desk.svg" alt="" />
 					<h3>Área Civil</h3>
 					<p>Legaliza tus compras y ventas para respaldar tus inversiones.</p>
@@ -90,7 +94,7 @@
 		</section>
 
 		<section class="about">
-			<img src="public/images/write.jpg" alt="" />
+			<img src="public/images/write.jpg" alt="" class="about__img" />
 			<div class="about__info">
 				<h2>Maigualida F.</h2>
 				<p>
@@ -99,6 +103,9 @@
 				</p>
 				<ul>
 					<li><i class="bi bi-geo-alt-fill"></i> Lechería, Edo. Anzoátegui</li>
+					<li>
+						<i class="bi bi-geo-alt-fill"></i> Ciudad Bolívar, Edo. Bolívar
+					</li>
 					<li><i class="bi bi-telephone-fill"></i> 0412-0817220</li>
 					<li><i class="bi bi-envelope-fill"></i> maiguafernandez@gmail.com</li>
 				</ul>
@@ -123,6 +130,7 @@
 		</footer>
 
 		<!-- Custom js -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script src="public/js/main.js"></script>
 	</body>
 </html>

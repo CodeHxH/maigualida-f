@@ -1,12 +1,16 @@
 header {
 	width: 100vw;
 	height: 100vh;
+	overflow: hidden;
 
 	* {
 		position: relative;
 	}
 
 	.header__info {
+		position: absolute;
+		top: 0;
+		z-index: 100;
 		padding: 2rem;
 		padding-bottom: 60px;
 		height: 100%;
@@ -65,7 +69,6 @@ header {
 	}
 
 	.header__background {
-		position: absolute;
 		object-fit: cover;
 		filter: brightness(50%);
 		object-position: center;
